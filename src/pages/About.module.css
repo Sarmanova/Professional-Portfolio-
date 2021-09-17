@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+.section{
+font-family: 'Urbanist', sans-serif;
+font-weight: bold;
+background-size: cover;
+height: 100vh;
+width: 100%;
+background: linear-gradient(-45deg, #50a7db, #50a7db, white, #50a7db);
+background-size: 400% 400%;
+animation: gradient 10s ease infinite;
+}
+.title{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    color: darkblue !important;
+}
+.image{
+    width: 500px;
+	height: 500px;
+	border-radius: 34px;
+    margin-left: 159px;
+    box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -7px rgb(0 0 0 / 20%);
+}
+.image:hover{
+ object-fit: contain;
+  cursor: pointer;
+}
+
+ .about{
+ text-align: center;
+    font-size: 45px;
+   
+} 
+.description{
+    font-size:35px;
+    color: darkblue; 
+    font-weight: bold; 
+    margin-left: 105px;
+     margin-top: 105px;  
+       
+}
+@keyframes gradient {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

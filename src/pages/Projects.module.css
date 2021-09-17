@@ -1,0 +1,73 @@
+.card{
+border-radius: 35px;
+/* margin-top: 25px; */
+margin-left: 62px;
+box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -7px rgb(0 0 0 / 20%);
+ 
+}
+.card1{
+border-radius: 35px;
+/* margin-top: 25px; */
+margin-left: 25px;
+box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -7px rgb(0 0 0 / 20%);
+ 
+    
+}
+.card3{
+border-radius: 35px;
+box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -7px rgb(0 0 0 / 20%);
+margin-left: 15px;
+}
+.title{
+    margin-top: -5px;
+    padding-top: 45px;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 65px;
+    color:darkblue !important;
+}
+
+.card:hover{
+    border-radius: 25px;
+    z-index: 5;
+    opacity: .6;
+    animation:ease-in-out;
+    transform: rotateX(30deg);
+    transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 500ms;
+}
+.card3:hover{
+    border-radius: 25px;
+    z-index: 5;
+    opacity: .6;
+    animation:ease-in-out;
+    transform: rotateX(30deg);
+       transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 500ms;
+}
+.card1:hover{
+    border-radius: 25px;
+    z-index: 5;
+    opacity: .6;
+    animation:ease-in-out;
+    transform: rotateX(30deg);
+       transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 500ms;
+}
+.section{
+  background-size:100% cover;
+    height: 200vh;
+     width: 100%;
+    background: linear-gradient(-35deg, #50a7db, white, #50a7db, #29bace);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
