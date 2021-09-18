@@ -36,24 +36,23 @@ color:darkblue;
     color: rgb(39, 51, 158);
 }
 .button{
-  border: 2px solid white;
-  color: darkblue !important;
-  font-size: 35px;
-  color: darkblue;
-  font-family: 'Italic', sans-serif;  
+  border: 4px solid rgb(6, 117, 161);
+  color: rgb(33, 22, 179) !important;
+  font-size: 25px;
+  font-family: 'Urbanist', sans-serif; 
   text-decoration: none;
   margin-right: 10px;
   transition: all .75s ease-in-out;
+  border-radius: 25px;
+  font-weight: bold;
+
 }
 .button:hover{
-  background-color: rgb(73, 114, 190);
-  color: white !important;
+  background-color: rgb(24, 26, 170);
+  color: #29c7b2 !important;
    transform: rotateY(180deg);
    transition-duration: 0.5s;
    font-size: 56px;
+   
 }
 
-.icon{
-    color: darkblue !important;
-
-}

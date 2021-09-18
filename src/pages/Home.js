@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link} from 'react-router-dom'
-import {Icon} from 'semantic-ui-react'
 import classes from './Home.module.css'
 function Home() {
 
@@ -16,11 +15,12 @@ function Home() {
             </div><br/>
           
             <Link className={classes.button} to='/projects'> View My Work 
-                <Icon name='arrow right' className={classes.icon}/>
+                
                
             </Link>
 
-            </div>
+        </div>
+     
      
     )
 }

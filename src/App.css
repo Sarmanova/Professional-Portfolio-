@@ -24,20 +24,16 @@
   font-size: 65px;
   font-family: 'Urbanist', sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .10em solid rgb(29, 120, 133); /* The typwriter cursor */
+  border-right: .0em solid rgb(29, 120, 133); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: .10em; /* Adjust as needed */
   animation: 
-    5s typing-erase 2s steps(40, end) infinite,
-    blink-caret .5s step-end infinite;
+    5s typing-erase 3.5s steps(40, end) infinite,
+    blink-caret .65s step-end 4;
 }
 
-/* The typing effect */
-/* @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-} */
+
 @keyframes typing-erase {
   0% { width: 0 }
   80% { width: 100% }
@@ -67,3 +63,4 @@
   opacity: 0;
 }
  
+

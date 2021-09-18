@@ -5,9 +5,9 @@
      text-align: center;
   
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
      width: 100%;
-    background: linear-gradient(-25deg, #50a7db, #50a7db, white, #50a7db);
+    background: linear-gradient(-25deg, #50a7db, #50a7db, rgb(36, 146, 180), #50a7db);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
       }
@@ -30,9 +30,29 @@
 .icon{
     
     padding: 10px;
-    padding-left: 45px;
+    padding-left: 25px;
 }
-.description{
-    color: darkblue !important;
-    font-weight: bold;
+.icon1:hover{
+
+ width: 550px;
+ 
+}
+
+.first{
+    display: inline-flex;
+    font-size: 20px;
+}
+.second{
+    font-size: 20px;
+    display: inline;
+}
+.third{
+     font-size: 20px;
+     display: inline;
+}
+.footer{
+
+    font-size: 15px;
+    color: black;
+    padding-top: 400px;
 }
