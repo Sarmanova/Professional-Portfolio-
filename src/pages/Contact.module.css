@@ -7,7 +7,7 @@
     background-size: cover;
     height: 100vh;
      width: 100%;
-    background: linear-gradient(-25deg, #50a7db, #50a7db, rgb(36, 146, 180), #50a7db);
+    background: linear-gradient(-25deg, #c5d0d6, #6cb8e4, rgb(28, 126, 156), #7abee6);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
       }
@@ -56,6 +56,14 @@
 .footer{
 
     font-size: 15px;
-    color: white;
+    color: black;
     margin-top: 350px;
+    margin-left: 35px;
+}
+
+.header{
+    color: white;
+    font-size: 20px;
+    display: inline;
+   
 }
